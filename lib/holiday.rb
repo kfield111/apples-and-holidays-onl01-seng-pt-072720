@@ -62,10 +62,13 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 def all_holidays_with_bbq(holiday_hash)
-  holiday_hash.each do |season, holiday|
-    if season[:holiday].values.includes? ("BBQ")
-      puts :holiday
+  holiday_hash.each do |season, holidays|
+    holidays.each do |holiday, supplies|
+      supplies.each do |supply|
+        if supply.includes? ("BBQ")
+          new_array.push holiday_supplies
+        end
+      end
     end
   end
-  #binding.pry
 end
