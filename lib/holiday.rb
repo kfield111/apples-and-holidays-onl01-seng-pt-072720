@@ -67,7 +67,7 @@ new_array = []
     holidays.each do |holiday, supplies|
       supplies.each do |supply|
         if supply == "BBQ"
-          new_array.push holiday_supplies
+          new_array.push supplies
         end
       end
     end
