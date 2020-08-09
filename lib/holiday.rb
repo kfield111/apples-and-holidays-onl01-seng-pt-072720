@@ -43,6 +43,7 @@ end
 def all_winter_holiday_supplies(holiday_hash)
   supplies_christmas = holiday_hash[:winter][:christmas]
   supplies.map
+  supplies_new_years = holiday_hash[:winter][:new_years]
   #binding.pry
 end
 
