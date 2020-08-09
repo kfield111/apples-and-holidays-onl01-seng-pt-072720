@@ -41,14 +41,11 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-  winter_supplies = []
-  holiday_hash.each do |season, holidays|
-    if season = :winter
-      holidays.each do |holiday, supplies|
-        winter_supplies.push supplies.map
-      end
-    end
+holiday_hash.each do |season, holidays|
+  if season = :winter
+    puts "Success"
   end
+end
 end
 
 def all_supplies_in_holidays(holiday_hash)
