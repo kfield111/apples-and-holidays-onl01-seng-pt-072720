@@ -66,4 +66,5 @@ new_array = []
   holiday_hash.each do |season, holiday|
     new_array << "#{season}"
   end
+  binding.pry
 end
