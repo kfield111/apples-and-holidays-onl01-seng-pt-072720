@@ -47,6 +47,7 @@ winter_supplies = []
   supplies_new_years = holiday_hash[:winter][:new_years]
   supplies_new_years.map
   winter_supplies.push supplies_christmas
+  winter_supplies.push supplies_new_years
   winter_supplies
   #binding.pry
 end
