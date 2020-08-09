@@ -46,6 +46,7 @@ winter_supplies = []
   season.each do |holiday|
     holiday.each do |supply|
       winter_supplies << supply
+    end
   end
   winter_supplies
   #binding.pry
