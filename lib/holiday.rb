@@ -66,7 +66,7 @@ new_array = []
   holiday_hash.each do |season, holidays|
     holidays.each do |holiday, supplies|
       supplies.each do |supply|
-        if supply.include? ("BBQ")
+        if supply == "BBQ"
           new_array.push holiday_supplies
         end
       end
