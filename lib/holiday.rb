@@ -70,5 +70,4 @@ new_array = []
       new_array.push "holiday"
     end
   end
-
 end
