@@ -46,6 +46,7 @@ def all_winter_holiday_supplies(holiday_hash)
       puts "#{holidays}"
     end
   end
+  binding.pry
 end
 
 def all_supplies_in_holidays(holiday_hash)
