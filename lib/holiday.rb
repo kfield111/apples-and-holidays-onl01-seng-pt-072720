@@ -68,5 +68,4 @@ new_array = []
       puts "test"
     end
   end
-  new_array
 end
