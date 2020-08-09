@@ -44,9 +44,9 @@ def all_winter_holiday_supplies(holiday_hash)
 winter_supplies = []
   season = holiday_hash[:winter]
     season.each do |holiday|
-      holiday.each do |supply|
-      binding.pry
-      winter_supplies << supply
+      if holiday == :chrsitmas
+        holiday.each do |supply|
+          winter_supplies << supply
     end
     winter_supplies
   end
