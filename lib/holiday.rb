@@ -42,7 +42,7 @@ new_holiday = {:season => {holiday_name => supply_array}}
   holiday_hash[:season] = new_holiday[:season]
 
   holiday_hash
-binding.pry
+#binding.pry
 
 end
 
