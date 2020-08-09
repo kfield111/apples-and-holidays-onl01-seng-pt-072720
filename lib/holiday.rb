@@ -46,6 +46,7 @@ winter_supplies = []
   season.each do |holidays, supplies|
     winter_supplies.push supplies
   end
+  winter_supplies
   #binding.pry
 end
 
