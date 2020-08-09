@@ -38,7 +38,7 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   holiday_supplies = {:season => {holiday_name => supply_array}}
 
-  holiday_hash
+  holiday_supplies
 #binding.pry
 end
 
