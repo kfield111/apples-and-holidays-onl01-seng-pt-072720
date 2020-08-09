@@ -45,7 +45,6 @@ def all_winter_holiday_supplies(holiday_hash)
   season.each do |holidays, supplies|
     supplies.values.flatten
   end
-
   #binding.pry
 end
 
