@@ -72,4 +72,5 @@ new_array = []
       end
     end
   end
+  new_array
 end
