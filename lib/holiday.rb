@@ -40,7 +40,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # remember to return the updated hash
   season_variable = holiday_hash[:season]
   new_holiday = season_variable[:holiday_name]
-  new_holiday => supply_array
+  new_holiday[supply_array]
 
   holiday_hash
 binding.pry
