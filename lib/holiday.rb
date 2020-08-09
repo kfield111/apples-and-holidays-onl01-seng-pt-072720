@@ -41,7 +41,6 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-winter_supplies = []
   supplies_christmas = holiday_hash[:winter][:christmas]
   supplies_christmas.map
 
